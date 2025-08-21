@@ -1,0 +1,1 @@
+Creating a simple RAG pipeline to test out different Query Translation Methods I learned about and then evaluate the outputs from each Translation Method on a particular pipeline - using Langchain Evaluation methods correctness, groundedness, relevance, retrieval_relevance

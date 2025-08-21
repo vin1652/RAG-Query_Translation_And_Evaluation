@@ -1,0 +1,10 @@
+{
+  "method": "hyde",
+  "n": 10,
+  "avg_correctness_1to5": 2.8,
+  "avg_groundedness_1to5": 4.111,
+  "avg_relevance_1to5": 4.7,
+  "avg_retrieval_relevance_0to1": 0.664,
+  "generator_model": "llama3-8b-8192",
+  "judge_model": "llama3-8b-8192"
+}

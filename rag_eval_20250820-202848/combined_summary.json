@@ -1,0 +1,94 @@
+{
+  "methods": [
+    {
+      "method": "multi_query",
+      "n": 10,
+      "avg_correctness_1to5": 2.2,
+      "avg_groundedness_1to5": 2.0,
+      "avg_relevance_1to5": 2.9,
+      "avg_retrieval_relevance_0to1": 0.601,
+      "generator_model": "llama3-8b-8192",
+      "judge_model": "llama3-8b-8192"
+    },
+    {
+      "method": "rag_fusion",
+      "n": 10,
+      "avg_correctness_1to5": 3.1,
+      "avg_groundedness_1to5": 4.222,
+      "avg_relevance_1to5": 4.3,
+      "avg_retrieval_relevance_0to1": 0.665,
+      "generator_model": "llama3-8b-8192",
+      "judge_model": "llama3-8b-8192"
+    },
+    {
+      "method": "decomposition",
+      "n": 10,
+      "avg_correctness_1to5": 2.9,
+      "avg_groundedness_1to5": 3.889,
+      "avg_relevance_1to5": 4.0,
+      "avg_retrieval_relevance_0to1": 0.65,
+      "generator_model": "llama3-8b-8192",
+      "judge_model": "llama3-8b-8192"
+    },
+    {
+      "method": "step_back",
+      "n": 10,
+      "avg_correctness_1to5": 3.1,
+      "avg_groundedness_1to5": 4.111,
+      "avg_relevance_1to5": 4.4,
+      "avg_retrieval_relevance_0to1": 0.67,
+      "generator_model": "llama3-8b-8192",
+      "judge_model": "llama3-8b-8192"
+    },
+    {
+      "method": "hyde",
+      "n": 10,
+      "avg_correctness_1to5": 2.8,
+      "avg_groundedness_1to5": 4.111,
+      "avg_relevance_1to5": 4.7,
+      "avg_retrieval_relevance_0to1": 0.664,
+      "generator_model": "llama3-8b-8192",
+      "judge_model": "llama3-8b-8192"
+    }
+  ],
+  "best_by_correctness": {
+    "method": "rag_fusion",
+    "n": 10,
+    "avg_correctness_1to5": 3.1,
+    "avg_groundedness_1to5": 4.222,
+    "avg_relevance_1to5": 4.3,
+    "avg_retrieval_relevance_0to1": 0.665,
+    "generator_model": "llama3-8b-8192",
+    "judge_model": "llama3-8b-8192"
+  },
+  "best_by_groundedness": {
+    "method": "rag_fusion",
+    "n": 10,
+    "avg_correctness_1to5": 3.1,
+    "avg_groundedness_1to5": 4.222,
+    "avg_relevance_1to5": 4.3,
+    "avg_retrieval_relevance_0to1": 0.665,
+    "generator_model": "llama3-8b-8192",
+    "judge_model": "llama3-8b-8192"
+  },
+  "best_by_relevance": {
+    "method": "hyde",
+    "n": 10,
+    "avg_correctness_1to5": 2.8,
+    "avg_groundedness_1to5": 4.111,
+    "avg_relevance_1to5": 4.7,
+    "avg_retrieval_relevance_0to1": 0.664,
+    "generator_model": "llama3-8b-8192",
+    "judge_model": "llama3-8b-8192"
+  },
+  "best_by_retrieval_relevance": {
+    "method": "step_back",
+    "n": 10,
+    "avg_correctness_1to5": 3.1,
+    "avg_groundedness_1to5": 4.111,
+    "avg_relevance_1to5": 4.4,
+    "avg_retrieval_relevance_0to1": 0.67,
+    "generator_model": "llama3-8b-8192",
+    "judge_model": "llama3-8b-8192"
+  }
+}

@@ -1,0 +1,26 @@
+langchain faiss-cpu pypdf python-dotenv
+ groq
+ ollama
+
+# Core LLM & LangChain
+langchain==0.2.14
+langchain-community==0.2.12
+langchain-core==0.2.28
+langchain-groq==0.1.3
+
+# Vector Stores
+faiss-cpu==1.8.0.post1   # If you’re using FAISS
+
+
+# Embeddings
+sentence-transformers==2.7.0
+
+
+# Document loaders & parsing
+pypdf==4.2.0             # PDF parsing
+unstructured==0.14.7     # General document parsing
+
+
+# Utilities
+tiktoken==0.7.0          # Token counting
+python-dotenv==1.0.1     # Environment variables for API keys
